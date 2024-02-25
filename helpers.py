@@ -7,7 +7,7 @@ client = OpenAI(api_key=oizom_api_key)
 # client = OpenAI(api_key=my_api_key)
 
 # assistant_id = "asst_kzai13rar1acPaaYN70u8822" #my assistnat
-assistant_id = "asst_PsJKALnjX6ltCDpCiHyLrxdK" #oizom assistnat
+assistant_id = "" #oizom assistnat
 
 
 def create_assistant(instructions, name):
