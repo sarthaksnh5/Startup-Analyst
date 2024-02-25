@@ -7,20 +7,6 @@ import scrapperHelper
 from helpers import assistant_id
 from fastapi.responses import FileResponse
 
-# import json
-# assistant = helpers.retrieve_assistant("asst_ZJWptesPw3uiagzBR5AiqPLf")
-# print(assistant)
-
-# thread = helpers.create_thread()
-# print(thread)
-
-# message = helpers.create_message(
-#     thread.id, "I want to generate powerpoint presentation on AI. This presentation is completely on AI. This includes data of AI, what is AI, How AI workds and what can you do with AI.")
-# print(message)
-
-# helpers.run_thread(thread.id, assistant.id)
-# create or retrieve assistant, create or retrieve thread, create message, run the assistant and thread
-
 app = FastAPI()
 
 app.add_middleware(
