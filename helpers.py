@@ -1,7 +1,7 @@
 from openai import OpenAI
 
-my_api_key = "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"
-oizom_api_key = "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"
+my_api_key = ""
+oizom_api_key = ""
 
 client = OpenAI(api_key=oizom_api_key)
 # client = OpenAI(api_key=my_api_key)
